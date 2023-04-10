@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Page</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="container">
+        <h1 class="hidden">library</h1>
+        <header id="header-con">
+            <div id="main-header" class="grid-con">
+                <div id="logo" class="box-color">
+                    <h1>library</h1>
+                </div>
+                <nav id="main-nav" class="box-color">
+                    <ul>
+                        <li><a href="#">fiction</a></li>
+                        <li><a href="#">non-fiction</a></li>
+                        <li><a href="#">kids books</a></li>
+                        <li><a href="#">psycological</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </nav>
+                <div id="header-box2" class="box-color">
+                    <input type="text" placeholder="Search...">
+                    <button class="search-btn" type="submit">Search</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="grid-con" id="hero">
+                <div id="hero-text" class="box-color">
+                    <div class="hero-text">about us</div>
+                    <div>
+                        <p class="hero-para"> Welcome to our library! We are a community resource dedicated to providing access to information, education, and entertainment through our vast collection of books, magazines, newspapers, and digital media.
+
+                            Our library serves as a hub for lifelong learning, with resources for people of all ages and interests. Whether you're looking to dive into a classic novel, research a topic for school, or learn a new language, our knowledgeable staff is here to help you find what you need.
+                            </p>
+                    </div>
+
+                    <a class="explore-more" href="#">
+                        <h3>Read More</h3>
+                    </a>
+                </div>
+                <img src="./images/cover.jpg" alt="cover image" width="400%" height="100%" id="cover_image">
+            </section>
+
+            <section class="grid-con" id="products">
+                <h2>Trending</h2>
+                <div class="product-box" id="product1">
+                    <img src="./images/DSC_5472.JPG" height="100%" width="100%" alt="psycological">
+                    <H3>psycological</H3>
+                    <p>$199</p>
+
+                    <a class="shop-btn" href="#buy">
+                        <h4> Buy Now</h4>
+                    </a>
+                </div>
+                <div class="product-box" id="product2">
+                    <img src="./images/DSC_5474.JPG" height="100%" width="100%" alt="world history">
+                    <H3>world history</H3>
+                    <p>$199</p>
+                    <a class="shop-btn" href="#buy">
+                        <h4> Buy Now</h4>
+                    </a>
+                </div>
+                <div class="product-box" id="product3">
+                    <img src="./images/DSC_5478.JPG" height="100%" width="100%" alt="persuit of power">
+                    <H3>persuit of power</H3>
+                    <p>$189</p>
+                    <a class="shop-btn" href="#buy">
+                        <h4> Buy Now </h4>
+                    </a>
+                </div>
+            </section>
+
+            <h2 id="about-title">Latest Launched</h2>
+            <section id="about-con">
+                <div class="grid-con" id="about">
+                    <div id="about-text" class="box-color">
+                        <h2>services provided by our library</h2>
+
+                     <p> In addition to our extensive collection, we offer a variety of programs and services to our community, including children's storytimes, book clubs, author visits, and computer classes. We also provide access to technology such as computers, Wi-Fi, and e-readers.
+
+                        Our library is more than just a place to borrow books. We are a community gathering space where people can come together to learn, create, and connect. We strive to be a welcoming and inclusive environment for all, and we are committed to providing equitable access to resources and services.
+                        
+                        Thank you for choosing our library as your resource for learning and discovery. We look forward to seeing you soon!</p>
+                        
+                       
+                        <button><a href="#">Learn More</a></button>
+                    </div>
+                    <img src="./images/kids_books.jpg" height="100%" width="120%" alt="kids books" id="about-image">
+                </div>
+            </section>
+
+            <section class="grid-con" id="contact">
+                <h2>Contact Us</h2>
+                <div id="contact-text" class="box-color">
+
+                    <div class="con-info">
+                        <h4> Feel free to contact us :-) </h4>
+                        <p>We value your feedback and are always here to answer any questions or concerns
+                            you may have. We're here to assist you in any way we can.</p>
+
+                        <p>
+                            Our business hours are Monday to Friday, 10 am to 7 pm. And you can call us at +1-519-777-8899 If you have any queires about our products or services, 
+                            please don't hesitate to ask. Our customer service team is always happy to help. We appreciate your feedback and look forward to hearing from you.
+
+                        </p>
+                    </div>
+                    
+                   
+
+
+                </div>
+                <div id="contact-form" class="box-color">
+                    <form>
+                        <label for="firstname">Name</label>
+                        <input type="text" name="name" placeholder="Name">
+                        
+                        <label for="contact">Email Number</label>
+                        <input type="text" name="contact" placeholder="Email Number">
+                        <label for="comment">Message</label>
+                        <textarea name="comment"
+                            placeholder="Comments"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <div id="footer-con">
+            <div class="grid-con" id="footer">
+                <div id="footer-logo" class="box-color">
+                    <h1>About Us</h1>
+                </div>
+                <div id="footer-nav" class="box-color">
+                    
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Return</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Paymnet</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="footer-newsletter1" class="box-color">
+                </div>
+                <div id="footer-newsletter2" class="box-color">
+                   <form action=""><label for="Email"></label>
+                    <input type="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div id="footer-social" class="box-color">
+                    <p> &copy; 2023 library. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
