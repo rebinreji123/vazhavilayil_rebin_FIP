@@ -563,24 +563,3 @@ padding: 2px 11px;
 	transform: scale(1.0);
 	box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
-.shoe-info{
-	padding-left: 15px;
-    padding-top: 15px;
-}
-.shoe-info p{
-	padding: 5px;
-}
-.shoe-name{
-	color: black;
-	font-size: 16px;
-}
-.category{
-	color: #757575;
-}
-.shoe-colors{
-	color: #757575;
-}
-.shoe-price{
-	font-size: 16px;
-	margin-top: 10px;
-}
