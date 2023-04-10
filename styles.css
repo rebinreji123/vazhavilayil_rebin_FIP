@@ -60,7 +60,7 @@ a {
 }
 
 #header-con {
-	background-color: #ffffffbe;
+	background-color: #fc0000be;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -367,7 +367,7 @@ border-radius: 14px;}
     margin-top: 25px;
 }
 #contact-form button:hover{
-	background-color: #3e8e41;
+	background-color: #02ff0a;
 }
 
 
@@ -484,7 +484,7 @@ padding: 2px 11px;
 
 #gallery-hero-con {
 	background-color: #aaaaaa;
-	background: url("../images/gallery/main_img.jpg");
+	background: url("./images/cover.jpg");
 	height: 580px;
     background-color: rgba(0,0 , 0, 0.4);
     background-blend-mode: overlay;
@@ -526,7 +526,7 @@ padding: 2px 11px;
 	color: white;
 }
 .collection-btn:hover{
-	background-color: rgb(255, 0, 0);
+	background-color: rgb(38, 0, 253);
 }
 .dot {
 	background-color: #dddddd;
